@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "0.1.0",
-  "description": "[![Actions Status](https://github.com/anorone/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/anorone/frontend-project-lvl1/actions)",
+  "description": "",
   "main": "",
   "type": "module",
   "bin": {
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anorone/frontend-project-lvl1.git"
+    "url": "git+https://github.com/zhenia-chugaev/brain.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anorone/frontend-project-lvl1/issues"
+    "url": "https://github.com/zhenia-chugaev/brain/issues"
   },
-  "homepage": "https://github.com/anorone/frontend-project-lvl1#readme",
+  "homepage": "https://github.com/zhenia-chugaev/brain#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
