@@ -5,7 +5,7 @@ import calc from '../../src/calc.js';
 
 const rule = 'What is the result of the expression?';
 
-const getPair = () => {
+const getQAPair = () => {
   const a = getRandomNumber(0, 25);
   const b = getRandomNumber(0, 25);
   const sign = getRandomFrom(['+', '-', '*']);
@@ -16,4 +16,4 @@ const getPair = () => {
   return [questionText, correctAnswer];
 };
 
-runTheGame(rule, getPair);
+runTheGame(rule, getQAPair);

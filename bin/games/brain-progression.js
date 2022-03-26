@@ -4,7 +4,7 @@ import { getRandomNumber } from '../../src/get-random.js';
 
 const rule = 'What number is missing in the progression?';
 
-const getPair = () => {
+const getQAPair = () => {
   const progressionLength = getRandomNumber(5, 10);
   const startNumber = getRandomNumber(0, 15);
   const step = getRandomNumber(2, 9);
@@ -26,4 +26,4 @@ const getPair = () => {
   return [questionText, correctAnswer];
 };
 
-runTheGame(rule, getPair);
+runTheGame(rule, getQAPair);

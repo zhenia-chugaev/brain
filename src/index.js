@@ -1,6 +1,6 @@
 import ask from './cli.js';
 
-const runTheGame = (rule, getPair) => {
+const runTheGame = (rule, getQAPair) => {
   console.log('Welcome to the Brain Games!');
 
   const userName = ask('May I have your name?');
@@ -11,7 +11,7 @@ const runTheGame = (rule, getPair) => {
   let score = 0;
 
   for (let question = 1; question <= questionsCount; question += 1) {
-    const [questionText, correctAnswer] = getPair();
+    const [questionText, correctAnswer] = getQAPair();
 
     console.log(`Question: ${questionText}`);
     const userAnswer = ask('Your answer:');

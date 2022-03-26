@@ -5,7 +5,7 @@ import gcd from '../../src/gcd.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
 
-const getPair = () => {
+const getQAPair = () => {
   const a = getRandomNumber(1, 50);
   const b = getRandomNumber(1, 50);
 
@@ -15,4 +15,4 @@ const getPair = () => {
   return [questionText, correctAnswer];
 };
 
-runTheGame(rule, getPair);
+runTheGame(rule, getQAPair);
